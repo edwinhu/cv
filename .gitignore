@@ -239,7 +239,6 @@ ltxpng/
 #Images
 *.eps
 *.svg
-*.pdf
 *.gph
 *.png
 
