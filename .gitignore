@@ -227,6 +227,7 @@ sashtml*.htm*
 *.dvi
 *.fdb_latexmk
 *.synctex.*
+auto/
 
 #Emacs stuff
 *~
