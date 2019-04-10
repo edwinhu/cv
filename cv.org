@@ -6,10 +6,7 @@
 #+LaTeX_HEADER: \usepackage{marvosym}
 #+LaTeX: \maketitle
 
-   | [[http://www.sec.gov][Securities and Exchange Commission]] | Last Updated: {{{date}}}   |
-   | 100 F St NE                        | \Telefon: (202) 551-8993   |
-   | Washington, D.C. 20549             | \Letter: ~hue@sec.gov~     |
-   |                                    | \Mundus: [[http://edwinhu.github.io][edwinhu.github.io]] |
+#+INCLUDE: ../contact.org
 
 * Research and Interests
 #+INCLUDE: ../interests.org
