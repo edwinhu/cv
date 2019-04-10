@@ -252,6 +252,5 @@ ltxpng/
 *.out
 *.csv
 *.fls
-*.org
 *.tex
 *.sty

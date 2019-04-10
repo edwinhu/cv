@@ -1,0 +1,52 @@
+#+TITLE: Edwin Hu
+#+AUTHOR: Edwin Hu
+#+DATE: {{{time(%Y-%m-%d)}}}
+#+OPTIONS: author:nil creator:nil timestamp:nil ^:nil toc:nil H:10 ':t num:nil
+#+LaTeX_HEADER: \usepackage{org_cv}
+#+LaTeX_HEADER: \usepackage{marvosym}
+#+LaTeX: \maketitle
+
+   | [[http://www.sec.gov][Securities and Exchange Commission]] | Last Updated: {{{date}}}   |
+   | 100 F St NE                        | \Telefon: (202) 551-8993   |
+   | Washington, D.C. 20549             | \Letter: ~hue@sec.gov~     |
+   |                                    | \Mundus: [[http://edwinhu.github.io][edwinhu.github.io]] |
+
+* Research and Interests
+#+INCLUDE: ../interests.org
+
+* Employment
+#+INCLUDE: ../experience.org :minlevel 2
+
+* Education
+#+INCLUDE: ../education.org :minlevel 2
+
+* Working Papers
+#+INCLUDE: ../workingpapers.org :minlevel 2
+
+* Work in Progress
+#+INCLUDE: ../wip.org :minlevel 2
+
+* Policy Work
+#+INCLUDE: ../policy.org :minlevel 2
+
+* Teaching :noexport:
+#+INCLUDE: ../teaching.org :minlevel 2
+
+* Professional Activities :noexport:
+#+INCLUDE: ../service.org :minlevel 2
+
+* Research Experience :noexport:
+#+INCLUDE: ../ra_work.org :minlevel 2
+
+* Skills
+#+INCLUDE: ../skills.org :minlevel 2
+
+* Citizenship :noexport:
+
+USA (Born)
+
+* References :noexport:
+#+ATTR_LaTeX: :center nil
+#+INCLUDE: ../references.org :minlevel 2
+
+
