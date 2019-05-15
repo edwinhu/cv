@@ -20,7 +20,7 @@
 * Working Papers
 #+INCLUDE: ../workingpapers.org :minlevel 2
 
-* Work in Progress
+* Work in Progress :noexport:
 #+INCLUDE: ../wip.org :minlevel 2
 
 * Policy Work
