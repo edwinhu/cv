@@ -4,7 +4,15 @@
 #+OPTIONS: author:nil creator:nil timestamp:nil ^:nil toc:nil H:10 ':t num:nil
 #+LaTeX_HEADER: \usepackage{org_cv}
 #+LaTeX_HEADER: \usepackage{marvosym}
+#+LaTeX_HEADER: \usepackage{accsupp}
 #+LaTeX: \maketitle
+#+BEGIN_EXPORT latex
+\newcommand\hiddentext[2]{%
+    \BeginAccSupp{ActualText={\detokenize{#1}}}%
+      #2
+    \EndAccSupp{}%
+}
+#+END_EXPORT
 
 #+INCLUDE: ../contact.org
 
@@ -45,5 +53,4 @@ USA (Born)
 * References :noexport:
 #+ATTR_LaTeX: :center nil
 #+INCLUDE: ../references.org :minlevel 2
-
 
