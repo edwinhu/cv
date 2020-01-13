@@ -27,7 +27,8 @@
 
 * Working Papers
 #+INCLUDE: ../workingpapers.org :minlevel 2
-
+* Publications
+#+INCLUDE: ../publications.org :minlevel 2
 * Work in Progress :noexport:
 #+INCLUDE: ../wip.org :minlevel 2
 
