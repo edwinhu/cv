@@ -5,7 +5,6 @@
 #+LaTeX_HEADER: \usepackage{org_cv}
 #+LaTeX_HEADER: \usepackage{marvosym}
 #+LaTeX_HEADER: \usepackage{accsupp}
-#+LaTeX: \maketitle
 #+BEGIN_EXPORT latex
 \newcommand\hiddentext[2]{%
     \BeginAccSupp{ActualText={\detokenize{#1}}}%
@@ -16,7 +15,7 @@
 
 #+INCLUDE: ../contact.org
 
-* Research and Interests
+* Research and Interests :noexport:
 #+INCLUDE: ../interests.org
 
 * Employment
