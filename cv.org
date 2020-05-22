@@ -5,6 +5,7 @@
 #+LaTeX_HEADER: \usepackage{org_cv}
 #+LaTeX_HEADER: \usepackage{marvosym}
 #+LaTeX_HEADER: \usepackage{accsupp}
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../css/org_cv.css" />
 #+BEGIN_EXPORT latex
 \newcommand\hiddentext[2]{%
     \BeginAccSupp{ActualText={\detokenize{#1}}}%
