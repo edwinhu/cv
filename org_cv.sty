@@ -36,7 +36,7 @@
 
 %% Config list
 \usepackage{enumitem}
-\setlist{leftmargin=2em, labelindent=\parindent, noitemsep, nosep, topsep=0pt, partopsep=0pt, parsep=0pt, itemsep=0pt}
+\setlist{leftmargin=2em, labelindent=\parindent, noitemsep, nosep, topsep=-0.5em, partopsep=0pt, parsep=0pt, itemsep=0pt}
 
 % -------------------------------------------------------------------
 % REDEFINE COMMANDS
@@ -60,7 +60,11 @@
             {0pt} %sep
             {} %before
             [\titlerule] %after
-\titlespacing{\section}{0pt}{0pt}{0pt}
+
+\titlespacing{\section}
+            {0pt}% max width of the title(for wrap/leftmargin shape)
+            {0pt}% vertical space before the title
+            {0.5em}% separation between title and text
 
 \titleformat{\subsection} %command
             [runin] %shape
@@ -72,8 +76,8 @@
             
 \titlespacing{\subsection}
             {0pt}% max width of the title(for wrap/leftmargin shape)
-            {0pt}% vertical space before the title
-            {0.5em}% separation between title and text
+            {0.5em}% vertical space before the title
+            {0.25em}% separation between title and text
 
 \titleformat{\subsubsection} %command
             [runin] %shape
